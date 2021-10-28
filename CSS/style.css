@@ -13,8 +13,9 @@
   --main-color-text: #000000;
   --main-color-text-2: #6f6d6d;
   --main-color-light-3: #ff4848;
-  --main-color-light-4: #ffd54f;
-  --main-color-light-5: #ffb74d;
+  --main-color-light-4: rgba(255, 255, 255, 0.5);
+  --main-color-light-5: #C8FFCA80;
+  --main-color-light-6: #9CA1E1;
 }
 
 
@@ -134,13 +135,74 @@
 .font{
     font-size: 20px;
 }
-.checkout{
-    background: var(--main-color-dark);
-    color: var(--main-color);
+.card__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.card{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 84%;
+    margin:12px 24px;
+    border-radius: 16px;
+    background:var(--main-color-light-5);
+    padding: 12px;
+}
+
+.left{
+    position: relative;
+    right: 50px;
+    transform: rotate(-30deg);
+    height: 120px;
+    width: 120px;
+}
+.right{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.right{
+    display:flex;
+    padding-left:16px;
+}
+.price , .name{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-color-text);
+    text-transform: uppercase;
+}
+.sub{
+    font-size: 12px;
+    color: var(--main-color-text-2);
+}
+.name{
+    color: var(--main-color-light-6);
+}
+.right__right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left:16px;
+}
+.favi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--main-color-light-6);
+    margin-right:12px;
+    font-size: 24px;
     outline: none;
     border: none;
-    border-radius: 16px;
-    padding:16px 72px;
-    margin: 12px auto;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 8px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
