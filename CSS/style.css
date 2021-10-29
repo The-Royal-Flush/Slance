@@ -167,7 +167,7 @@
 }
 .items{
   overflow: scroll;
-  height: 68vh;
+  height: 70vh;
 }
 .value__details {
   display: flex;
