@@ -264,9 +264,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-      left: 8%;
-    width: 315px;
-    height: 125px;
+  left: 8%;
+  width: 315px;
+  
   border: none;
   border-radius: 12px;
   outline: none;
