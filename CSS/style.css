@@ -25,9 +25,14 @@
   max-width: 720px;
   /* overflow: hidden; */
 }
+.body__fav{
+  
+  margin-top: 6rem;
+  
+}
 
 .header {
-  padding: 48px 48px 0 48px;
+  padding: 48px 48px 0 33px;
   position: fixed;
   top: 0;
 }
