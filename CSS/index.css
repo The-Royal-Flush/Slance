@@ -112,6 +112,9 @@
     padding: 0.5rem 1rem;
     font-size: 24px;
   }
+
+
+  /* Cover page */
   .cover {
     background: url("https://s3-alpha-sig.figma.com/img/4a83/1376/25f7216aa854a0ffcf1d0561df61e6ff?Expires=1636329600&Signature=WFKvrqHx-YHQxCsy7gWHOIW6ieVBPfSvzwK33xDTy1r35y-WORseqwas5y8nxeJh0H5kdY6OeYlC4znjrVt~-WaUo6P9ExIpg2yoJO-gP10ZZA3m5FvHrl92P9jkd-fHvK~95Rbvmq59XcDmplYcwF26pzCgy6sz-iheK8Jj~yie5jUTPc1CcrsjW41gPx0ZSBb-jB-OolMsJ6ziMLLlPfNlVowlAs-NPVE5CMvY3U8Rl97EIfQqzy1A8aWoVZhuwNqsFIOO0qJGERW58Smhh3H4Lnmw2QdIOcfdk3E-U~GoAT3Rfcmm30nCY6IFWya4rCbnA26SHyy3r6Z4uk9PVw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
 background-position: center;
@@ -139,5 +142,37 @@ height: 100vh;
     right: 1rem;
     font-size: 12px;
     font-weight: 700;
+}
+/* Navbar */
+nav{
+  position: fixed;
+  bottom: 0;
+width: 100%;
+background-color: white;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+.nav_icon1 img,.nav_icon2 img,.nav_icon4 img,.nav_icon5 img{
+  width: 24px;
+  height: 24px;
+}
+.nav_icon3{
+  background-color: #030303;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position: relative;
+bottom: 2rem; 
+}
+.nav_icon3 svg{
+  width: 40px;
+  height: 40px;
 }
 }
