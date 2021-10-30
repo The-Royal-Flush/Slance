@@ -18,6 +18,7 @@
   --main-color-light-5: #c8ffca80;
   --main-color-light-6: #9ca1e1;
   --white: #ffffff;
+  --button:#3a3939;
 }
 .body {
   background: var(--main-color-light);
@@ -32,7 +33,7 @@
 }
 
 .header {
-  padding: 48px 48px 0 33px;
+  padding: 2rem 0 0 2rem;
   position: fixed;
   top: 0;
 }
@@ -44,13 +45,13 @@
 }
 .header__button {
   color: var(--main-color);
-  font-size: 36px;
+  font-size: 20px;
 }
 .back {
   height: 48px;
   width: 48px;
   border-radius: 12px;
-  background-color: var(--main-color-dark);
+  background-color: var(--button);
   color: white;
   border: none;
   outline: none;
@@ -76,7 +77,7 @@
   margin-top:72px;
 }
 .heading {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
   color: var(--main-color-text);
 }
@@ -158,12 +159,10 @@
   justify-content: space-evenly;
   background: white;
   border-radius: 16px;
-  
+  width: 85%;
+
   margin: auto;
-
   height: 142px;
-  
-
 }
 .items{
   overflow: scroll;
@@ -273,4 +272,10 @@
 
   background: var(--main-color-dark);
   color: var(--main-color-light);
+}
+.zab{
+  position: fixed;
+  margin: auto;
+  bottom: 0%;
+  width: 100%;
 }
