@@ -10,16 +10,25 @@
   --white: white;
   --light-gray: #a8a8a8;
   --bold-heading: #131212;
-  --light-font:18px;
+  --light-font: 14px;
+  --heavy-font: 16px;
 }
 body {
   background-color: var(--background-color);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  
 }
 .item__container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  align-items: flex-start;
   background-color: var(--background-color);
+  max-width: 1042px;
+  height: 100%;
 }
 .item__card {
   width: 240px;
@@ -56,21 +65,38 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
-.filter__container{
+.filter__container {
   display: flex;
-  justify-content: flex-start;
-  max-width: 349px;
-  max-height: 612px;
+  /* justify-content: flex-end; */
+  flex-direction: column;
+  width: 349px;
+  height: 612px;
   background: var(--white);
-  
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  border-radius: 16px;
+  padding: 32px;
+}
+.bb{
+  border-bottom: 1px solid #e6e6e6;
+}
+.brand__head{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--bold-heading);
+  text-align: left;
+}
+.hh{
+  height: 3rem;
 }
 
 .control-group {
   display: inline-block;
   vertical-align: top;
-  padding: 30px;
+  /* padding: 30px; */
   height: 210px;
-
 }
 .control {
   display: block;
@@ -78,13 +104,16 @@ body {
   padding-left: 30px;
   margin-bottom: 15px;
   cursor: pointer;
-  font-size: var(--light-font);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
 }
 .control input {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
+
 .control__indicator {
   position: absolute;
   top: 2px;
@@ -113,7 +142,7 @@ body {
   pointer-events: none;
 }
 .control__indicator:after {
-  content: '';
+  content: "";
   position: absolute;
   display: none;
 }
@@ -192,4 +221,38 @@ body {
 }
 .select select:disabled ~ .select__arrow {
   border-top-color: #ccc;
+}
+.control-group h1, .he {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 52px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons{
+  font-size: var(--light-font);
+}
+.price{
+  border-bottom: 1px solid #e6e6e6;
+}
+.size{
+  border-bottom: 1px solid #e6e6e6;
+  margin: 2rem 0;
+}
+.btn{
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.button{
+  background:white;
+  height: 36px;
+  width: 36px;
+  border: none;
+  outline: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
