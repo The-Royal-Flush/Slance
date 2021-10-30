@@ -23,7 +23,7 @@
   background: var(--main-color-light);
   height: 100vh;
   max-width: 720px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .body__fav{
   
@@ -158,14 +158,16 @@
   justify-content: space-evenly;
   background: white;
   border-radius: 16px;
-  width: 90vw;
+  
   margin: auto;
+
   height: 142px;
   
+
 }
 .items{
   overflow: scroll;
-  height: 68vh;
+  height: 70vh;
 }
 .value__details {
   display: flex;
@@ -261,11 +263,14 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 75vw;
+  left: 8%;
+  width: 315px;
+  
   border: none;
   border-radius: 12px;
   outline: none;
   padding: 16px;
+
   background: var(--main-color-dark);
   color: var(--main-color-light);
 }
