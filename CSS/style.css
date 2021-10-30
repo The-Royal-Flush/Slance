@@ -161,9 +161,7 @@
   width: 90vw;
   margin: auto;
   height: 142px;
-  position: fixed;
-  bottom: 15%;
-  left: 5%;
+  
 }
 .items{
   overflow: scroll;
@@ -268,9 +266,6 @@
   border-radius: 12px;
   outline: none;
   padding: 16px;
-  position: fixed;
-  bottom: 5%;
-  left: 13%;
   background: var(--main-color-dark);
   color: var(--main-color-light);
 }
