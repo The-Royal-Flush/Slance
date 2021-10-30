@@ -264,18 +264,26 @@
   justify-content: center;
   left: 8%;
   width: 315px;
-  
+
   border: none;
   border-radius: 12px;
   outline: none;
   padding: 16px;
-
   background: var(--main-color-dark);
   color: var(--main-color-light);
 }
+
 .zab{
   position: fixed;
   margin: auto;
   bottom: 0%;
   width: 100%;
+}
+.sh{
+  font-weight: 400;
+  font-size: 12px;
+}
+.bh{
+  font-weight: 700;
+  font-size: 20px;
 }
