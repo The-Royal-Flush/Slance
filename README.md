@@ -19,13 +19,10 @@ Slance is an open source website for selling shoes online.
 >[Profile Page](https://the-royal-flush.github.io/Slance/HTML/profile.html)
 
 >[Product Page](https://the-royal-flush.github.io/Slance/HTML/product.html)
-<p align='left'>
- <img src='Output_Preview/PRODUCT.png'>
 
 >[Favourites Page](https://the-royal-flush.github.io/Slance/HTML/fav.html)
 
-
-
+>[Navigation Bar](https://the-royal-flush.github.io/Slance/HTML/navbar.html)
 
 
 ## Contributing
