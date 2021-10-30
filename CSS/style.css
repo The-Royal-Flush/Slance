@@ -44,7 +44,7 @@
 }
 .header__button {
   color: var(--main-color);
-  font-size: 36px;
+  font-size: 20px;
 }
 .back {
   height: 48px;
@@ -76,7 +76,7 @@
   margin-top:72px;
 }
 .heading {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
   color: var(--main-color-text);
 }
