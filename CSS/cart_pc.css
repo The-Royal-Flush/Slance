@@ -87,7 +87,7 @@ body {
 
 main{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: space-evenly;
 }
 
@@ -270,4 +270,13 @@ header {
 
 .total_container p{
   font-size: 1.5rem;
+}
+
+.product_outer_container{
+  height: 260px;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 768px) {
+
 }
