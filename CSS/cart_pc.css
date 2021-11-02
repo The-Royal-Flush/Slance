@@ -68,7 +68,7 @@ body {
 main{
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: space-evenly;
 }
 
 button {
@@ -125,8 +125,17 @@ header {
 }
 
 .div_1{
-  width: 75%;
-  padding: 0 5% 0 5%;
+  width: 58.30rem;
+  /* padding: 0 1% 0 5%; */
+}
+
+.div_2{
+  width: 27.25rem;
+  padding: 1rem 3rem;
+  /* margin: 0 5% 0 1%; */
+  border: 2px solid var(--clr-accent-800);
+  border-radius: 12px;
+  
 }
 
 .login_details,.shipping_address {
@@ -177,3 +186,56 @@ header {
 .payment_title h3{
   margin-left: 2rem;
 }
+
+.product_img{
+  width: 6.125rem;
+    height: auto;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    border-radius: 12px;
+}
+
+.product_container_1,.product_container_2{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.product_variant{
+  display: flex;
+}
+
+.price_quant{
+  display: flex;
+}
+
+.product_quantity{
+  margin-left: 5px;
+}
+
+.product_color{
+  margin-left: 10px;
+}
+
+.product_desc{
+  margin-left: 2rem;
+}
+.delivery,.discount{
+  display: flex;
+}
+
+.delivery_container,.discount_container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.total_container{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--clr-accent-250);
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
