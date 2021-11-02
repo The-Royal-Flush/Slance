@@ -8,6 +8,9 @@
   --clr-accent-800: #131212;
 
   --clr-accent-250: #efefef;
+  --clr-accent-350: #dddddd;
+  --clr-accent-450: #a5a5a5;
+  
 
   --ff-primary: "Poppins", sans-serif;
   --ff-title: "Nothing You Could Do", cursive;
@@ -59,6 +62,23 @@
 .bg-dark-accent {
   background-color: var(--clr-accent-800);
   color: var(--clr-neutral-100);
+}
+
+.fc-accent-450{
+  color: var(--clr-accent-450);
+}
+
+.fw-600{
+  font-weight: 600;
+}
+.fw-700{
+  font-weight: 700;
+}
+.fw-200{
+  font-weight: 200;
+}
+.fw-500{
+  font-weight: 500;
 }
 
 body {
@@ -131,15 +151,15 @@ header {
 
 .div_2{
   width: 27.25rem;
-  padding: 1rem 3rem;
+  padding: 3rem 3rem;
   /* margin: 0 5% 0 1%; */
-  border: 2px solid var(--clr-accent-800);
+  border: 2px solid var(--clr-accent-350);
   border-radius: 12px;
   
 }
 
 .login_details,.shipping_address {
-  border: 2px solid var(--clr-accent-800);
+  border: 2px solid var(--clr-accent-350);
   border-radius: 12px;
 
   display: flex;
@@ -209,7 +229,11 @@ header {
   display: flex;
 }
 
-.product_quantity{
+.product_size{
+  display: flex;
+}
+
+.product_quantity,.product_size_value{
   margin-left: 5px;
 }
 
@@ -222,6 +246,7 @@ header {
 }
 .delivery,.discount{
   display: flex;
+  justify-content: flex-start;
 }
 
 .delivery_container,.discount_container{
@@ -239,3 +264,10 @@ header {
   margin-top: 1rem;
 }
 
+.divider_element{
+  color: var(--clr-accent-250);
+}
+
+.total_container p{
+  font-size: 1.5rem;
+}
