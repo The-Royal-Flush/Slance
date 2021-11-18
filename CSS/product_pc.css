@@ -6,6 +6,7 @@
 
   --clr-neutral-100:#fff;
   --clr-accent-800:#131212;
+  --clr-accent-700:#212529;
 
   --ff-primary:'Poppins', sans-serif;
   --ff-title:'Nothing You Could Do', cursive;
@@ -30,12 +31,18 @@
     height: auto;
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     border-radius: 12px;
+
+}
+
+.img_preview{
+    margin-left: 2rem;
 }
 
 .img_preview img{
     width: 34.375rem;
     height: auto;
     flex-grow: 1.2;
+
 }
 
 .caps{
@@ -76,7 +83,7 @@ header h2{
 .product__container{
     display: flex;
     align-items: center;
-    margin: 0 8.375rem 0 8.375rem;
+    margin: 0 4vw;
     justify-content: space-between;
 }
 
@@ -128,4 +135,53 @@ header h2{
 
 .buy_now{
     border: 2px solid var(--clr-primary-900);
+}
+
+.thumbnail{
+	object-fit: cover;
+	max-width: 180px;
+	max-height: 100px;
+	cursor: pointer;
+	opacity: 0.5;
+	margin: 5px;
+	border: 2px solid var(--clr-accent-700);
+}
+
+.thumbnail:hover{
+	opacity:1;
+}
+
+.active{
+	opacity: 1;
+}
+
+.product__slider__container{
+    display: flex;
+    /* flex-wrap: wrap; */
+
+}
+
+
+.product__gallery{
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px){
+    .product__slider__container{
+        flex-direction: column-reverse;
+    }
+
+    .product__gallery{
+        flex-direction: row;
+    }
+
+    .product__container{
+        flex-direction: column;
+    }
+
+    .img_preview img{
+        width: 70%;
+    }
 }
